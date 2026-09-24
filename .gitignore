@@ -1,0 +1,23 @@
+# Compiled binaries
+huffman
+*.exe
+*.out
+*.o
+*.obj
+
+# Compression test artifacts
+*.huff
+sample_out.txt
+sample_decompressed.txt
+
+# Build directories
+build/
+bin/
+cmake-build-*/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
