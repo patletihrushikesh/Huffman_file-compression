@@ -1,0 +1,18 @@
+Huffman coding is a lossless data compression algorithm. The idea is to assign
+variable-length codes to input characters, with the lengths of the codes based
+on the frequencies of the corresponding characters. The most frequent character
+gets the smallest code, and the least frequent character gets the largest code.
+
+This sample file exists purely so you can test the compressor right after
+cloning the repository. Feel free to replace it with any text file you like,
+or even a binary file, since this implementation works on raw bytes rather
+than assuming ASCII text.
+
+Try compressing this file, then decompressing the result, and diff it against
+the original to confirm the round trip is lossless. The more repetitive the
+input, the better the compression ratio you should expect to see, since
+Huffman coding exploits skewed symbol frequency distributions.
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
